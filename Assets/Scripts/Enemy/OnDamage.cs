@@ -29,6 +29,6 @@ public class OnDamage : MonoBehaviour
             Debug.Log($"Health : {health} Enemy Died ");
         }
 
-       //push
+       
     }
 }

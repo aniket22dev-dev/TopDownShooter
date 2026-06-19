@@ -7,13 +7,14 @@ public class AutoAimShooter : MonoBehaviour
     [SerializeField] private FixedJoystick joystick;
     [Header("Animation")]
     [SerializeField] private PlayerAnimationController animationController;
-
+    [SerializeField] private GameObject mainCamera;
     [SerializeField] private Slider rotationSlider;
     [SerializeField] private Transform player;
 
     private void Start()
     {
         rotationSlider.onValueChanged.AddListener(RotatePlayer);
+        mainCamera= GameObject.FindWithTag("MainCamera");
     }
 
 
@@ -28,6 +29,7 @@ public class AutoAimShooter : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             Lockmovement();
+            mainCamera.GetComponent<CameraMovement>().LookAtEnemy(other.transform.position);
         }
     }
 
@@ -37,6 +39,7 @@ public class AutoAimShooter : MonoBehaviour
         PlayerController.canMove = false;
         joystick.gameObject.SetActive(false);
         rotationSlider.gameObject.SetActive(true);
+        mainCamera.GetComponent<CameraMovement>().onEnemyRadius = true;
     }
     public void UnlockMovement()
     {
@@ -45,8 +48,10 @@ public class AutoAimShooter : MonoBehaviour
         joystick.ResetJoystick();
         joystick.gameObject.SetActive(true);
         rotationSlider.gameObject.SetActive(false);
+        mainCamera.GetComponent<CameraMovement>().onEnemyRadius = false;
+        mainCamera.GetComponent<CameraMovement>().SetCam();
     }
 
-  
+
 }
 

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\risha\\TopDownShooter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\risha\\topdownshooter\\assets\\scripts\\weapon\\autoaimshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\autoaimshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\risha\\topdownshooter\\assets\\scripts\\enemy\\ondamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\ondamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\risha\\topdownshooter\\assets\\scripts\\weapon\\autoaimshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\autoaimshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\risha\\topdownshooter\\assets\\scripts\\player\\on_equip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,17 +45,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "OnDamage.cs",
               "DocumentMoniker": "C:\\Users\\risha\\TopDownShooter\\Assets\\Scripts\\Enemy\\OnDamage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\OnDamage.cs",
               "ToolTip": "C:\\Users\\risha\\TopDownShooter\\Assets\\Scripts\\Enemy\\OnDamage.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\OnDamage.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwB8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-14T12:57:38.153Z",
               "EditorCaption": ""
@@ -70,12 +70,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\On_Equip.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwB0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T04:04:41.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T04:04:41.641Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AutoAimShooter.cs",
               "DocumentMoniker": "C:\\Users\\risha\\TopDownShooter\\Assets\\Scripts\\Weapon\\AutoAimShooter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon\\AutoAimShooter.cs",
@@ -132,8 +131,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Weapon\\Shooting.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAAAGYAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T05:06:47.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T05:06:47.62Z"
             },
             {
               "$type": "Document",
