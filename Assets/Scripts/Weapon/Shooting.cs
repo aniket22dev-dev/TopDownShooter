@@ -101,7 +101,7 @@ public class Shooting : MonoBehaviour
             Quaternion rot = Quaternion.LookRotation(hit.normal);
             GameObject fx = Instantiate(gunsData.impactEffectEnemy, hit.point, rot);
             hit.collider.GetComponent<OnDamage>().TakeDamage(gunsData.damage);
-            Destroy(fx, 0.5f);
+            Destroy(fx, 0.4f);
         }
 
         else
@@ -109,7 +109,7 @@ public class Shooting : MonoBehaviour
             if (gunsData.impactEffectPrefab == null) return;
             Quaternion rot = Quaternion.LookRotation(hit.normal);
             GameObject fx = Instantiate(gunsData.impactEffectPrefab, hit.point, rot);
-            Destroy(fx, 0.5f);
+            Destroy(fx, 0.4f);
         }
        
     }
